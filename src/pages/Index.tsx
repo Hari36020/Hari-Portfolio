@@ -25,6 +25,16 @@ const Index = () => {
     }
   };
 
+  const handleResumeDownload = () => {
+    // For now, show a message since no resume file is uploaded
+    toast.info("Resume download will be available soon. Please contact me directly for my latest resume.");
+    // TODO: Replace with actual resume file download
+    // const link = document.createElement('a');
+    // link.href = '/path-to-resume.pdf';
+    // link.download = 'Hari_Krishna_Sangakari_Resume.pdf';
+    // link.click();
+  };
+
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -127,6 +137,7 @@ const Index = () => {
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
             <Button 
+              onClick={handleResumeDownload}
               variant="outline" 
               className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg"
             >
@@ -286,6 +297,7 @@ const Index = () => {
               📩 Contact Me
             </Button>
             <Button 
+              onClick={handleResumeDownload}
               variant="outline" 
               className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-medium transition-all duration-200"
             >
@@ -372,6 +384,7 @@ const Index = () => {
               </div>
               
               <Button 
+                onClick={handleResumeDownload}
                 variant="outline" 
                 className="border-blue-600 text-blue-600 hover:bg-blue-50 w-full h-12 font-medium"
               >
