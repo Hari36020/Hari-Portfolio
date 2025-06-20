@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -5,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { ArrowDown, ArrowRight, Download, Github, Linkedin } from "lucide-react";
+import { ArrowDown, ArrowRight, Download, Github, Linkedin, Phone, Mail } from "lucide-react";
 import { toast } from "sonner";
 
 const Index = () => {
@@ -379,8 +380,17 @@ const Index = () => {
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold mb-3">Direct Contact</h4>
-                <p className="text-gray-600">hari36020@gmail.com</p>
+                <h4 className="text-lg font-semibold mb-4">Direct Contact</h4>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-3 text-gray-600">
+                    <Mail className="h-5 w-5" />
+                    <span>hari36020@gmail.com</span>
+                  </div>
+                  <div className="flex items-center space-x-3 text-gray-600">
+                    <Phone className="h-5 w-5" />
+                    <span>+1 405 202 5467</span>
+                  </div>
+                </div>
               </div>
               
               <Button 
