@@ -1,10 +1,10 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { ArrowDown, ArrowRight, Download, Github, Linkedin } from "lucide-react";
 import { toast } from "sonner";
 
@@ -99,9 +99,16 @@ const Index = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 py-20">
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
-          <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-            HK
-          </div>
+          <Avatar className="w-32 h-32 mx-auto mb-8 shadow-lg">
+            <AvatarImage 
+              src="/lovable-uploads/03fd61d4-2f16-433f-be70-e260eff9f502.png" 
+              alt="Hari Krishna Sangakari"
+              className="object-cover"
+            />
+            <AvatarFallback className="bg-gradient-to-br from-blue-600 to-blue-800 text-white text-4xl font-bold">
+              HK
+            </AvatarFallback>
+          </Avatar>
           <h1 className="text-5xl md:text-7xl font-light mb-6 tracking-tight">
             Hi, I'm <span className="font-semibold">Hari Krishna Sangakari</span>
           </h1>
