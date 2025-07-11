@@ -27,13 +27,12 @@ const Index = () => {
   };
 
   const handleResumeDownload = () => {
-    // For now, show a message since no resume file is uploaded
-    toast.info("Resume download will be available soon. Please contact me directly for my latest resume.");
-    // TODO: Replace with actual resume file download
-    // const link = document.createElement('a');
-    // link.href = '/path-to-resume.pdf';
-    // link.download = 'Hari_Krishna_Sangakari_Resume.pdf';
-    // link.click();
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/uc?export=download&id=1C9pq1MYxqXXcns6Qn-mZryPttBuHy6_z';
+    link.download = 'Hari_Krishna_Sangakari_Resume.pdf';
+    link.target = '_blank';
+    link.click();
+    toast.success("Resume download started!");
   };
 
   const scrollToSection = (id: string) => {
