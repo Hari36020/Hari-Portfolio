@@ -44,19 +44,19 @@ const Index = () => {
     {
       company: "Kent Displays Inc.",
       period: "Sep 2025 – Present",
-      role: "Flutter Developer",
+      role: "Mobile Application Developer",
       description: "Developing Cloud Canvas, a cloud-based digital display platform, by building a cross-platform Flutter (Android/iOS) mobile application that enables users to upload, manage, and display images on connected canvas devices."
     },
     {
       company: "Serole Technologies",
       period: "Nov 2021 – Aug 2024",
-      role: "Senior Flutter Developer",
+      role: "Software Developer",
       description: "Led insurance app development (PolicyFest), mentored juniors, ran agile sprints with clients"
     },
     {
       company: "Rosemallow Technologies", 
       period: "Aug 2021 – Oct 2021",
-      role: "Flutter Developer",
+      role: "Software Developer",
       description: "Delivered courier & food delivery app with real-time order tracking"
     },
     {
@@ -72,7 +72,8 @@ const Index = () => {
       title: "Cloud Canvas – Kent Displays",
       description: "Cloud-based digital display platform with a cross-platform Flutter mobile app for uploading, managing, and displaying images on connected canvas devices. Built backend APIs with AWS Lambda, S3, and DynamoDB. Implemented auth with AWS Amplify & Cognito.",
       tech: "Flutter, AWS Lambda, S3, DynamoDB, Amplify, Cognito, Agile",
-      role: "Full Stack Developer | Sep 2025 – Present | Kent, Ohio"
+      role: "Full Stack Developer | Sep 2025 – Present | Kent, Ohio",
+      link: "https://mycloudcanvas.com/"
     },
     {
       title: "PolicyFest & Just Insurance",
