@@ -50,7 +50,7 @@ const Index = () => {
     {
       company: "Serole Technologies",
       period: "Nov 2021 – Aug 2024",
-      role: "Senior Flutter Developer",
+      role: "Software Developer",
       description: "Led insurance app development (PolicyFest), mentored juniors, ran agile sprints with clients"
     },
     {
