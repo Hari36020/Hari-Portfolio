@@ -44,7 +44,7 @@ const Index = () => {
     {
       company: "Kent Displays Inc.",
       period: "Sep 2025 – Present",
-      role: "Flutter Developer",
+      role: "Mobile Application Developer",
       description: "Developing Cloud Canvas, a cloud-based digital display platform, by building a cross-platform Flutter (Android/iOS) mobile application that enables users to upload, manage, and display images on connected canvas devices."
     },
     {
