@@ -72,7 +72,8 @@ const Index = () => {
       title: "Cloud Canvas – Kent Displays",
       description: "Cloud-based digital display platform with a cross-platform Flutter mobile app for uploading, managing, and displaying images on connected canvas devices. Built backend APIs with AWS Lambda, S3, and DynamoDB. Implemented auth with AWS Amplify & Cognito.",
       tech: "Flutter, AWS Lambda, S3, DynamoDB, Amplify, Cognito, Agile",
-      role: "Full Stack Developer | Sep 2025 – Present | Kent, Ohio"
+      role: "Full Stack Developer | Sep 2025 – Present | Kent, Ohio",
+      link: "https://mycloudcanvas.com/"
     },
     {
       title: "PolicyFest & Just Insurance",
