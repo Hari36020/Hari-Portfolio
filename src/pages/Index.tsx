@@ -27,10 +27,7 @@ const Index = () => {
   };
 
   const handleResumeDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/HariKrishnaSangakari_FullStackResume.pdf';
-    link.download = 'HariKrishnaSangakari_FullStackResume.pdf';
-    link.click();
+    window.open('https://drive.google.com/uc?export=download&id=1yO5TnO_bSAhTneq7RPGb9a_W8zDXWYIK', '_blank');
     toast.success("Resume download started!");
   };
 
@@ -39,11 +36,17 @@ const Index = () => {
   };
 
   const skills = [
-    'Flutter', 'React', 'Kotlin', 'TypeScript', 'GraphQL', 'Firebase', 
+    'Flutter', 'React', 'React Native', 'Kotlin', 'TypeScript', 'GraphQL', 'Firebase', 
     'AWS', 'NodeJS', 'REST', 'Agile', 'Dart', 'PostgreSQL', 'Celigo'
   ];
 
   const experiences = [
+    {
+      company: "Kent Displays Inc.",
+      period: "Sep 2025 – Present",
+      role: "Flutter Developer",
+      description: "Developing Cloud Canvas, a cloud-based digital display platform, by building a cross-platform Flutter (Android/iOS) mobile application that enables users to upload, manage, and display images on connected canvas devices."
+    },
     {
       company: "Serole Technologies",
       period: "Nov 2021 – Aug 2024",
@@ -122,7 +125,7 @@ const Index = () => {
             Hi, I'm <span className="font-semibold">Hari Krishna Sangakari</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4 font-light">
-            Full Stack Developer | Flutter Architect | Scalable Product Builder
+            Full Stack Developer
           </p>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
             Delivering Clean Code & Seamless User Experiences Across Platforms
@@ -259,8 +262,8 @@ const Index = () => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center">
                   🎓
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Masters in Computer Science</h3>
-                <p className="text-gray-600 mb-2">University of Central Oklahoma</p>
+                <h3 className="text-xl font-semibold mb-2">Masters in Data Science</h3>
+                <p className="text-gray-600 mb-2">Lindsey Wilson University</p>
                 <p className="text-gray-500">2023–2025</p>
               </CardContent>
             </Card>
