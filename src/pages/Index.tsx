@@ -262,8 +262,8 @@ const Index = () => {
                 <div className="w-16 h-16 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center">
                   🎓
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Masters in Computer Science</h3>
-                <p className="text-gray-600 mb-2">University of Central Oklahoma</p>
+                <h3 className="text-xl font-semibold mb-2">Masters in Data Science</h3>
+                <p className="text-gray-600 mb-2">Lindsey Wilson University</p>
                 <p className="text-gray-500">2023–2025</p>
               </CardContent>
             </Card>
