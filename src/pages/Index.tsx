@@ -56,7 +56,7 @@ const Index = () => {
     {
       company: "Rosemallow Technologies", 
       period: "Aug 2021 – Oct 2021",
-      role: "Flutter Developer",
+      role: "Software Developer",
       description: "Delivered courier & food delivery app with real-time order tracking"
     },
     {
