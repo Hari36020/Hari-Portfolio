@@ -119,7 +119,7 @@ const Index = () => {
             Hi, I'm <span className="font-semibold">Hari Krishna Sangakari</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-4 font-light">
-            Full Stack Developer | Flutter Architect | Scalable Product Builder
+            Full Stack Developer
           </p>
           <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
             Delivering Clean Code & Seamless User Experiences Across Platforms
