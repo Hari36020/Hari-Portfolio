@@ -36,7 +36,7 @@ const Index = () => {
   };
 
   const skills = [
-    'Flutter', 'React', 'Kotlin', 'TypeScript', 'GraphQL', 'Firebase', 
+    'Flutter', 'React', 'React Native', 'Kotlin', 'TypeScript', 'GraphQL', 'Firebase', 
     'AWS', 'NodeJS', 'REST', 'Agile', 'Dart', 'PostgreSQL', 'Celigo'
   ];
 
