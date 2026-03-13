@@ -27,7 +27,10 @@ const Index = () => {
   };
 
   const handleResumeDownload = () => {
-    window.open('https://drive.google.com/uc?export=download&id=1yO5TnO_bSAhTneq7RPGb9a_W8zDXWYIK', '_blank');
+    const link = document.createElement('a');
+    link.href = '/HariKrishnaSangakari_FullStackResume.pdf';
+    link.download = 'HariKrishnaSangakari_FullStackResume.pdf';
+    link.click();
     toast.success("Resume download started!");
   };
 
