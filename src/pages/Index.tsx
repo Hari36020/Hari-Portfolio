@@ -28,9 +28,8 @@ const Index = () => {
 
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/uc?export=download&id=1C9pq1MYxqXXcns6Qn-mZryPttBuHy6_z';
-    link.download = 'Hari_Krishna_Sangakari_Resume.pdf';
-    link.target = '_blank';
+    link.href = '/HariKrishnaSangakari_FullStackResume.pdf';
+    link.download = 'HariKrishnaSangakari_FullStackResume.pdf';
     link.click();
     toast.success("Resume download started!");
   };
