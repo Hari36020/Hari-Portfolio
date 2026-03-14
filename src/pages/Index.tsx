@@ -14,7 +14,7 @@ const scrollToSection = (id: string) => {
 
 const handleResumeDownload = () => {
   const link = document.createElement("a");
-  link.href = "/HariKrishnaSangakari_FullStackResume.pdf";
+  link.href = `${import.meta.env.BASE_URL}HariKrishnaSangakari_FullStackResume.pdf`;
   link.download = "HariKrishnaSangakari_FullStackResume.pdf";
   link.click();
   toast.success("Resume download started!");
